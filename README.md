@@ -11,6 +11,9 @@ http://mpvue.com/mpvue/
 # vant官网
 https://youzan.github.io/vant-weapp/#/intro
 
+# iview官网
+https://weapp.iviewui.com/docs/guide/start
+
 # 初始化项目
 vue init mpvue/mpvue-quickstart myproject
 cd myproject
@@ -26,6 +29,16 @@ git clone https://github.com/youzan/vant-weapp.git
 "usingComponents": {
     "van-row": "/static/vant/row/index",
     "van-col": "/static/vant/col/index"
+},
+
+# 引入iview组件库
+git clone git@github.com:TalkingData/iview-weapp.git
+组件放到新建文件夹下static/vant
+
+# 页面使用iview组件
+"usingComponents": {
+    "i-button": "/static/iview/button/index",
+    "i-load-more": "/static/iview/load-more/index"
 },
 
 # 安装scss预处理器
