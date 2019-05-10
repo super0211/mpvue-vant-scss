@@ -5,6 +5,12 @@
 ## Build Setup
 
 ```bash
+# mpvue官网
+http://mpvue.com/mpvue/
+
+# vant官网
+https://youzan.github.io/vant-weapp/#/intro
+
 # 初始化项目
 vue init mpvue/mpvue-quickstart myproject
 cd myproject
