@@ -5,6 +5,13 @@
 ## Build Setup
 
 ```bash
+# 初始化项目
+vue init mpvue/mpvue-quickstart myproject
+cd myproject
+
+# 安装依赖
+npm install
+
 # 引入vant组件库
 git clone https://github.com/youzan/vant-weapp.git
 组件放到新建文件夹下static/vant
@@ -17,13 +24,6 @@ git clone https://github.com/youzan/vant-weapp.git
 
 # 安装scss预处理器
 npm install node-sass sass-loader --save-dev
-
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
-
-# 安装依赖
-npm install
 
 # 开发时构建
 npm run dev
